@@ -87,10 +87,12 @@ footer ul {
   color: #1d1d1d;
 }
 
-.projects h2 {
+h2 {
   color: #b8b8b8;
   font-size: 20px;
   letter-spacing: 0.25px;
+  margin-bottom: 0;
+  margin-bottom: 1.2em;
 }
 
 .projects li {
@@ -106,6 +108,24 @@ footer ul {
 
 .projects ul li .description {
   color: #b8b8b8;
+}
+
+.value-heading {
+  font-size: 22.5px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #1d1d1d;
+  color: #b8b8b8;
+
+  margin-bottom: 0;
+  margin-bottom: 0.5em;
+}
+
+.value-description {
+  font-size: 20px;
+  line-height: 30px;
+  color: #b8b8b8;
+  color: #1d1d1d;
 }
 
 /* tablet */
@@ -128,5 +148,9 @@ footer ul {
 
   .hero p {
     font-size: 1em;
+  }
+
+  .projects p {
+    font-size: 0.8em;
   }
 }
