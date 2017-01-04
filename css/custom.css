@@ -14,6 +14,9 @@
 
 html {
   font-size: 100%;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke: .18px;
 }
 
 body {
@@ -80,6 +83,31 @@ footer ul {
   text-align: left;
 }
 
+.projects {
+  color: #1d1d1d;
+}
+
+.projects h2 {
+  color: #b8b8b8;
+  font-size: 20px;
+  letter-spacing: 0.25px;
+}
+
+.projects li {
+  margin-bottom: 1.8em;
+}
+
+.projects ul li .entity,
+.projects ul li .description {
+  font-size: 20px;
+  line-height: 30px;
+  display: block;
+}
+
+.projects ul li .description {
+  color: #b8b8b8;
+}
+
 /* tablet */
 @media only screen and (max-width : 768px) {
   .hero h1 {
@@ -95,6 +123,7 @@ footer ul {
 @media only screen and (max-width : 465px) {
   .hero h1 {
     font-size: 2em;
+    text-shadow: 1px 0 0 #000;
   }
 
   .hero p {
