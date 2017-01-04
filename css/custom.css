@@ -1,0 +1,103 @@
+@font-face {
+    font-family:'NeuzeitSLTStd-Book';
+    src: url('NeuzeitSLTStd-Book.eot');
+    src: url('NeuzeitSLTStd-Book.eot?#iefix') format('embedded-opentype'),
+        url('NeuzeitSLTStd-Book.woff') format('woff'),
+        url('NeuzeitSLTStd-Book.ttf') format('truetype'),
+        url('NeuzeitSLTStd-Book.otf') format('opentype'),
+        url('NeuzeitSLTStd-Book.svg#NeuzeitSLTStd-Book') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-25CA;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "NeuzeitSLTStd-Book", sans-serif, Helvetica, Arial;
+  color: #333;
+}
+
+.hero p {
+  font-size: 1.6em;
+  font-weight: normal;
+  /*text-shadow: 0.1vw 0vw 0 #fff;*/
+  line-height: 1.4;
+}
+
+.hero h1 {
+  margin: 0;
+  margin: 0.2em 0;
+
+  font-size: 4em;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 3px 0 0 #000;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  margin: 1em 0;
+}
+
+header ul {
+  text-align: right;
+}
+
+header ul li,
+footer ul li {
+  display: inline;
+  padding: 0 0.25em;
+  color: #b8b8b8;
+  font-size: 20px;
+}
+
+header a {
+  color: #b8b8b8;
+  text-decoration: none;
+}
+
+footer a {
+  color: #1d1d1d;
+  text-decoration: none;
+}
+
+header a:hover,
+footer a:hover {
+  color: #1d1d1d;
+  text-decoration: none;
+}
+
+footer ul {
+  text-align: left;
+}
+
+/* tablet */
+@media only screen and (max-width : 768px) {
+  .hero h1 {
+    font-size: 3em;
+  }
+
+  .hero p {
+    font-size: 1.4em;
+  }
+}
+
+/* mobile */
+@media only screen and (max-width : 465px) {
+  .hero h1 {
+    font-size: 2em;
+  }
+
+  .hero p {
+    font-size: 1em;
+  }
+}
