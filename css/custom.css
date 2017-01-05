@@ -47,11 +47,11 @@ ul {
 }
 
 header {
-  margin: 1em 0;
+  text-align: right;
 }
 
-header ul {
-  text-align: right;
+header, footer {
+  margin: 1em 0;
 }
 
 header ul li,
@@ -60,6 +60,10 @@ footer ul li {
   padding: 0 0.25em;
   color: #b8b8b8;
   font-size: 20px;
+}
+
+header ul li:first-child {
+  padding-left: 0;
 }
 
 header a {
@@ -78,8 +82,18 @@ footer a:hover {
   text-decoration: none;
 }
 
-footer ul {
-  text-align: left;
+footer ul.social {
+  text-align: right;
+}
+
+ {
+  padding-left: 0;
+}
+
+footer .copyright {
+  color: #b8b8b8;
+  font-size: 20px;
+  display: inline;
 }
 
 .projects {
@@ -158,5 +172,14 @@ h2 {
 
   .expertise p {
     font-size: 0.8em;
+  }
+
+  header,
+  footer ul.social {
+    text-align: left;
+  }
+
+  footer ul.social li:first-child {
+    padding-left: 0;
   }
 }
