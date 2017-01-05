@@ -50,8 +50,12 @@ header {
   text-align: right;
 }
 
-header, footer {
+header {
   margin: 1em 0;
+}
+
+footer {
+  margin: 1em 0 2em 0;
 }
 
 header ul li,
@@ -181,5 +185,9 @@ h2 {
 
   footer ul.social li:first-child {
     padding-left: 0;
+  }
+
+  footer {
+    font-size: 0.8em;
   }
 }
