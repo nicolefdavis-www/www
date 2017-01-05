@@ -182,4 +182,8 @@ h2 {
   footer ul.social li:first-child {
     padding-left: 0;
   }
+
+  footer ul.social {
+    margin-top: -3.2em;
+  }
 }
