@@ -60,7 +60,7 @@ footer {
 
 header ul li,
 footer ul li {
-  display: inline;
+  display: inline-block;
   padding: 0 0.25em;
   color: #b8b8b8;
   font-size: 20px;
@@ -90,14 +90,18 @@ footer ul.social {
   text-align: right;
 }
 
- {
+footer ul.social li.copyright {
+  float: left;
+  padding-left: 0;
+  margin-top: 3.5px;
+}
+
+footer ul.social li:first-child {
   padding-left: 0;
 }
 
-footer .copyright {
-  color: #b8b8b8;
-  font-size: 20px;
-  display: inline;
+footer ul.social li:nth-last-child(2) {
+  padding-right: 0;
 }
 
 .projects {
@@ -163,6 +167,13 @@ h2 {
   }
 }
 
+@media only screen and (max-width : 500px) {
+  header,
+  footer ul.social {
+    text-align: left;
+  }
+}
+
 /* mobile */
 @media only screen and (max-width : 465px) {
   .hero h1 {
@@ -175,19 +186,6 @@ h2 {
   }
 
   .expertise p {
-    font-size: 0.8em;
-  }
-
-  header,
-  footer ul.social {
-    text-align: left;
-  }
-
-  footer ul.social li:first-child {
-    padding-left: 0;
-  }
-
-  footer {
     font-size: 0.8em;
   }
 }
