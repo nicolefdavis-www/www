@@ -156,6 +156,10 @@ h2 {
   font: normal;
 }
 
+.certifications {
+  text-align: center;
+}
+
 /* tablet */
 @media only screen and (max-width : 768px) {
   .hero h1 {
