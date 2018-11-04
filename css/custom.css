@@ -150,7 +150,9 @@ h2 {
 }
 
 .expertise a,
-.expertise a:hover {
+.expertise a:hover,
+.hero a,
+.hero a:hover {
   color: #1d1d1d;
   text-decoration: underline;
   font: normal;
