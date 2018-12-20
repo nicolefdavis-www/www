@@ -25,7 +25,7 @@ body {
 }
 
 .hero p {
-  font-size: 1.6em;
+  font-size: 1.4em;
   font-weight: normal;
   line-height: 1.4;
 }
@@ -34,7 +34,7 @@ body {
   margin: 0;
   margin: 0.2em 0;
 
-  font-size: 4em;
+  font-size: 3em;
   font-weight: bold;
   color: #000;
   text-shadow: 3px 0 0 #000;
@@ -110,7 +110,7 @@ footer ul.social li:nth-last-child(2) {
 
 h2 {
   color: #b8b8b8;
-  font-size: 20px;
+  font-size: 30px;
   letter-spacing: 0.25px;
   margin-bottom: 0;
   margin-bottom: 1.2em;
@@ -160,6 +160,25 @@ h2 {
 
 .certifications {
   text-align: center;
+}
+
+.campaign-description {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.campaign-description strong {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+
+.campaign-description p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
 }
 
 /* tablet */
