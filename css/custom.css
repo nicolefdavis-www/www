@@ -64,6 +64,25 @@ body {
   color: #b8b8b8;
 }
 
+.metric {
+  margin: 25px 0;
+}
+
+.metric .statistic {
+  font-size: 500%;
+  font-weight: bold;
+  margin: -45px 0 -35px 0;
+}
+
+.metric .description {
+  color: #333;
+  font-size: 75%;
+}
+
+.metric .description .em {
+  border-bottom: 2px solid #333;
+}
+
 ul {
   list-style: none;
   padding: 0;
